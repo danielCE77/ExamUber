@@ -30,7 +30,7 @@ public class CostOfTrip {
     //public int getTotalCost() {
       //  return totalCost;
     //}
-    public double Calculation(int cost1, int cost2){
-        cost1= (int) Math.sqrt(getActual_location_x()*)
+    public double Calculation(int cost1, int cost2,User p1){
+        cost1= (int) Math.sqrt(p1.getActual_location_x()*)
     }
 }

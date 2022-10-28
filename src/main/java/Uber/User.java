@@ -11,8 +11,25 @@ package Uber;
 public class User extends Person{
     private int actual_location_x =3;
     private int actual_location_y=2;
+
+    public int getActual_location_x() {
+        return actual_location_x;
+    }
+
+    public int getActual_location_y() {
+        return actual_location_y;
+    }
+
+    public int getDestination_location_x() {
+        return destination_location_x;
+    }
+
+    public int getDestination_location_y() {
+        return destination_location_y;
+    }
     private int destination_location_x= 5;
     private int destination_location_y= 11;
+    
     
     public User(char name, char last_name, char direction, int actual_location_x, int actual_location_y, int destination_location_x, int destination_location_y ){
         super(name, last_name, direction);
